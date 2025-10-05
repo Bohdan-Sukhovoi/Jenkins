@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     parameters {
-        string(name: 'DB_NUMBER', defaultValue: 'all', description: 'Номер бази даних для очищення або "all" для очищення всіх баз даних')
+        string(name: 'DB_NUMBER', defaultValue: 'all', description: 'Номер бази даних длуя очищення або "all" для очищення всіх баз даних')
     }
 
     stages {
